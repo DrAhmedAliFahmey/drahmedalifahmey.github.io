@@ -1,0 +1,80 @@
+/* containers */
+.features-section,
+.imp-services-section {
+    margin         : 100px;
+    display        : flex;
+    flex-wrap      : wrap;
+    justify-content: space-around;
+}
+/* items */
+.feature,
+.imp-service {
+    flex       : 1 1 0;
+    padding    : 20px;
+    text-align : center;
+    white-space: nowrap;
+}
+/* h5 fonts */
+h5 {
+    font-family: Almarai-Regular;
+}
+
+/* items in feature section */
+.feature {
+    line-height: 60px;
+}
+
+.fa-heart {
+    color  : rgb(92, 17, 17);
+    opacity: .8;
+
+}
+
+.fa-pump-medical {
+    color  : rgb(150, 86, 27);
+    opacity: .8;
+}
+
+.fa-pump-medical:hover,
+.fa-heart       :hover {
+    opacity: 1;
+}
+
+/* carousel */
+/* make  controllers in dark theme */
+.carousel-indicators li,
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    filter        : invert(1);
+    -webkit-filter: invert(1);
+}
+
+/* make indicatiors criculars */
+.carousel-indicators li {
+    width        : 10px;
+    height       : 10px;
+    border-radius: 100%;
+}
+
+/*items important services section*/
+.imp-service img {
+    height        : 450px;
+    width         : 300px;
+    padding-bottom: 50px;
+}
+
+.imp-service {
+    background-color  : #fff;
+    margin            : 0 10px 20px 0;
+    border            : 1px solid #e9e9e9;
+    padding           : 50px 30px;
+    transition        : 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition   : 0.5s;
+    -ms-transition    : 0.5s;
+    -o-transition     : 0.5s;
+}
+
+.imp-service:hover {
+    background-color: rgb(252, 189, 166);
+}
