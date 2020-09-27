@@ -9,12 +9,11 @@
 /* items */
 .feature,
 .imp-service {
-    flex       : 1 1 0;
-    padding    : 20px;
-    text-align : center;
-    white-space: nowrap;
+    flex      : 1 1 0;
+    text-align: center;
 }
-/* h5 fonts */
+
+
 h5 {
     font-family: Almarai-Regular;
 }
@@ -22,6 +21,7 @@ h5 {
 /* items in feature section */
 .feature {
     line-height: 60px;
+    padding    : 20px
 }
 
 .fa-heart {
@@ -36,7 +36,7 @@ h5 {
 }
 
 .fa-pump-medical:hover,
-.fa-heart       :hover {
+.fa-heart:hover {
     opacity: 1;
 }
 
@@ -77,4 +77,11 @@ h5 {
 
 .imp-service:hover {
     background-color: rgb(252, 189, 166);
+}
+
+@media(max-width:1200px) {
+    .features-section,
+    .imp-services-section {
+        flex-direction: column;
+    }
 }
