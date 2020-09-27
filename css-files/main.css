@@ -15,7 +15,7 @@ header {
     width           : 100%;
     height          : 100vh;
     background-color: rgb(190, 76, 34);
-    background-image: url('../images/bg.png');
+    background-image: url(../images/bg.png);
     background-size : cover;
     margin-bottom   : 100px;
 
@@ -112,7 +112,7 @@ nav ul li a {
     flex-wrap       : wrap;
     justify-content : right;
     background-color: rgb(138, 66, 39);
-    background-image: url('../images/orange-bg.jpg');
+    background-image: url(../images/orange-bg.jpg);
     background-size : cover;
     color           : #fff;
     margin-top      : 100px;
