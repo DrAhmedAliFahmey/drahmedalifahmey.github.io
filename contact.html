@@ -16,13 +16,10 @@
     <!-- css files -->
     <link rel="stylesheet" type="text/css" href="css-files/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css-files/all.css" />
+    <link rel="stylesheet" type="text/css" href="css-files/aos.css" />
     <link rel="stylesheet" type="text/css" href="css-files/added-fonts.css" />
     <link rel="stylesheet" type="text/css" href="css-files/main.css" />
     <link rel="stylesheet" type="text/css" href="css-files/contact-style.css" />
-
-    <!-- js files -->
-    <script src="js-files/jQueryv3.5.1.js"></script>
-    <script src="js-files/script.js"></script>
   </head>
 
   <!-- body -->
@@ -49,7 +46,7 @@
 
     <h2>أتصل بنا</h2>
 
-    <div class="contact-methods">
+    <div class="contact-methods" data-aos="fade-down">
       <div class="phone-numbers">
         <i class="fas fa-mobile fa-5x"></i>
         <h3>أرقام التواصل</h3>
@@ -71,7 +68,7 @@
       </h3>
     </div>
 
-    <div class="location-section">
+    <div class="location-section" data-aos="fade-up">
       <div class="location">
         <h3>مركزد\أحمد علي فهمي</h3>
         <h4>
@@ -116,5 +113,16 @@
         <object data="images/logo.png"></object>
       </div>
     </footer>
+
+    <!-- js files -->
+    <script src="js-files/jQueryv3.5.1.js"></script>
+    <script src="js-files/bootstrap.min.js"></script>
+    <script src="js-files/script.js"></script>
+    <script src="js-files/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+      });
+    </script>
   </body>
 </html>

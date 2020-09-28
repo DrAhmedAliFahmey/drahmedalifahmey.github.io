@@ -16,13 +16,10 @@
     <!-- css files -->
     <link rel="stylesheet" type="text/css" href="css-files/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css-files/all.css" />
+    <link rel="stylesheet" type="text/css" href="css-files/aos.css" />
     <link rel="stylesheet" type="text/css" href="css-files/added-fonts.css" />
     <link rel="stylesheet" type="text/css" href="css-files/main.css" />
     <link rel="stylesheet" type="text/css" href="css-files/about-style.css" />
-
-    <!-- js files -->
-    <script src="js-files/jQueryv3.5.1.js"></script>
-    <script src="js-files/script.js"></script>
   </head>
 
   <!-- body -->
@@ -50,7 +47,7 @@
     <h2>عن المركز</h2>
 
     <!-- mission and vision -->
-    <div class="mission-vision">
+    <div class="mission-vision" data-aos="fade-down">
       <div class="card mission">
         <img
           src="images/smilly-girl.jpg"
@@ -113,7 +110,7 @@
     </div>
 
     <!-- experience and branches -->
-    <div class="experience-branches">
+    <div class="experience-branches" data-aos="fade-up"> 
       <div class="experience">
         <h2>سنين من الخبرة</h2>
         <hr />
@@ -156,5 +153,16 @@
         <object data="images/logo.png"></object>
       </div>
     </footer>
+
+    <!-- js files -->
+    <script src="js-files/jQueryv3.5.1.js"></script>
+    <script src="js-files/bootstrap.min.js"></script>
+    <script src="js-files/script.js"></script>
+    <script src="js-files/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+      });
+    </script>
   </body>
 </html>

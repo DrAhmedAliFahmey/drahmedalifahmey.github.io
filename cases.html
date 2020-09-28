@@ -15,13 +15,10 @@
     <!-- css files -->
     <link rel="stylesheet" type="text/css" href="css-files/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css-files/all.css" />
+    <link rel="stylesheet" type="text/css" href="css-files/aos.css" />
     <link rel="stylesheet" type="text/css" href="css-files/added-fonts.css" />
     <link rel="stylesheet" type="text/css" href="css-files/main.css" />
     <link rel="stylesheet" type="text/css" href="css-files/cases-style.css" />
-
-    <!-- js files -->
-    <script src="js-files/jQueryv3.5.1.js"></script>
-    <script src="js-files/script.js"></script>
   </head>
   <!-- body -->
   <body>
@@ -52,6 +49,7 @@
       <div class="column">
         <img
           src="images/ba-case1.jpg"
+          data-aos="fade-up"
           onclick="openModal();currentSlide(1)"
           class="hover-shadow"
           alt="case 1"
@@ -60,6 +58,7 @@
       <div class="column">
         <img
           src="images/ba-case2.jpg"
+          data-aos="fade-up"
           onclick="openModal();currentSlide(2)"
           class="hover-shadow"
           alt="case 2"
@@ -68,6 +67,7 @@
       <div class="column">
         <img
           src="images/ba-case3.jpg"
+          data-aos="fade-up"
           onclick="openModal();currentSlide(3)"
           class="hover-shadow"
           alt="case 3"
@@ -76,6 +76,7 @@
       <div class="column">
         <img
           src="images/ba-case4.jpg"
+          data-aos="fade-up"
           onclick="openModal();currentSlide(4)"
           class="hover-shadow"
           alt="case 4"
@@ -84,6 +85,7 @@
       <div class="column">
         <img
           src="images/ba-case5.jpg"
+          data-aos="fade-up"
           onclick="openModal();currentSlide(5)"
           class="hover-shadow"
           alt="case 5"
@@ -92,6 +94,7 @@
       <div class="column">
         <img
           src="images/ba-case6.jpg"
+          data-aos="fade-up"
           onclick="openModal();currentSlide(6)"
           class="hover-shadow"
           alt="case 6"
@@ -100,6 +103,7 @@
       <div class="column">
         <img
           src="images/ba-case7.jpg"
+          data-aos="fade-up"
           onclick="openModal();currentSlide(7)"
           class="hover-shadow"
           alt="case 7"
@@ -108,6 +112,7 @@
       <div class="column">
         <img
           src="images/ba-case8.jpg"
+          data-aos="fade-up"
           onclick="openModal();currentSlide(8)"
           class="hover-shadow"
           alt="case 8"
@@ -116,6 +121,7 @@
       <div class="column">
         <img
           src="images/ba-case9.jpg"
+          data-aos="fade-up"
           onclick="openModal();currentSlide(9)"
           class="hover-shadow"
           alt="case 9"
@@ -124,6 +130,7 @@
       <div class="column">
         <img
           src="images/ba-case10.jpg"
+          data-aos="fade-up"
           onclick="openModal();currentSlide(10)"
           class="hover-shadow"
           alt="case 10"
@@ -132,6 +139,7 @@
       <div class="column">
         <img
           src="images/ba-case11.jpg"
+          data-aos="fade-up"
           onclick="openModal();currentSlide(11)"
           class="hover-shadow"
           alt="case 11"
@@ -140,6 +148,7 @@
       <div class="column">
         <img
           src="images/ba-case12.jpg"
+          data-aos="fade-up"
           onclick="openModal();currentSlide(12)"
           class="hover-shadow"
           alt="case 12"
@@ -224,5 +233,16 @@
         <object data="images/logo.png"></object>
       </div>
     </footer>
+
+    <!-- js files -->
+    <script src="js-files/jQueryv3.5.1.js"></script>
+    <script src="js-files/bootstrap.min.js"></script>
+    <script src="js-files/script.js"></script>
+    <script src="js-files/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+      });
+    </script>
   </body>
 </html>

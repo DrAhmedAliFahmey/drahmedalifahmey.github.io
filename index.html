@@ -16,15 +16,10 @@
     <!-- css files -->
     <link rel="stylesheet" type="text/css" href="css-files/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css-files/all.css" />
+    <link rel="stylesheet" type="text/css" href="css-files/aos.css" />
     <link rel="stylesheet" type="text/css" href="css-files/added-fonts.css" />
     <link rel="stylesheet" type="text/css" href="css-files/index-style.css" />
     <link rel="stylesheet" type="text/css" href="css-files/main.css" />
-
-
-    <!-- js files -->
-    <script src="js-files/jQueryv3.5.1.js"></script>
-    <script src="js-files/bootstrap.min.js"></script>
-    <script src="js-files/script.js"></script>
   </head>
 
   <!-- body -->
@@ -50,7 +45,7 @@
     </header>
 
     <!-- feature -->
-    <div class="features-section">
+    <div class="features-section" data-aos="fade-down">
       <div class="feature">
         <i class="fas fa-heart fa-5x"></i>
         <h4>العلاج بعناية</h4>
@@ -131,7 +126,7 @@
     </div>
 
     <!--important services -->
-    <div class="imp-services-section">
+    <div class="imp-services-section" data-aos="zoom-in-up">
       <div class="imp-service">
         <img src="images/Tooth-implant.png" alt="tooth implant illustration" />
         <h4>زراعة الاسنان</h4>
@@ -182,5 +177,16 @@
         <object data="images/logo.png"></object>
       </div>
     </footer>
+
+    <!-- js files -->
+    <script src="js-files/jQueryv3.5.1.js"></script>
+    <script src="js-files/bootstrap.min.js"></script>
+    <script src="js-files/script.js"></script>
+    <script src="js-files/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+      });
+    </script>
   </body>
 </html>
