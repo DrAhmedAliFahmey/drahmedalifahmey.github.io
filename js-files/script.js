@@ -5,7 +5,6 @@ $(document).ready(function() {
 });
 
 // Scrolling Effect
-
 $(window).on("scroll", function() {
     if($(window).scrollTop()) {
           $('nav').addClass('black');
@@ -33,11 +32,6 @@ showSlides(slideIndex);
 // Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
 }
 
 function showSlides(n) {

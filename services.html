@@ -14,6 +14,7 @@
     <!-- css files -->
     <link rel="stylesheet" type="text/css" href="css-files/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css-files/all.css" />
+    <link rel="stylesheet" type="text/css" href="css-files/aos.css" />
     <link rel="stylesheet" type="text/css" href="css-files/added-fonts.css" />
     <link rel="stylesheet" type="text/css" href="css-files/main.css" />
     <link
@@ -21,9 +22,6 @@
       type="text/css"
       href="css-files/services-style.css"
     />
-    <!-- js files -->
-    <script src="js-files/jQueryv3.5.1.js"></script>
-    <script src="js-files/script.js"></script>
   </head>
   <!-- body -->
   <body>
@@ -49,9 +47,9 @@
 
     <h2>الخدمات</h2>
 
-    <div class="main-services">
+    <div class="main-services" >
       <div class="row">
-        <div class="dental-implants">
+        <div class="dental-implants" data-aos="fade-left">
           <object
             type="image/svg+xml"
             data="icons/dental-implant-icon.svg"
@@ -68,7 +66,7 @@
           </h4>
         </div>
 
-        <div class="root-chanel-treatment">
+        <div class="root-chanel-treatment" data-aos="fade-left">
           <object
             type="image/svg+xml"
             data="icons/root-chanel-icon.svg"
@@ -85,7 +83,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="tooth-crown">
+        <div class="tooth-crown" data-aos="fade-left">
           <object type="image/svg+xml" data="icons/tooth-crown.svg"></object>
           <h3>تركيبات الاسنان</h3>
           <h4>
@@ -99,7 +97,7 @@
           </h4>
         </div>
 
-        <div class="teeth-polishing">
+        <div class="teeth-polishing" data-aos="fade-left">
           <object type="image/svg+xml" data="icons/shining-tooth.svg"></object>
           <h3>تنظيف و تلميع الاسنان</h3>
           <h4>
@@ -115,7 +113,7 @@
       </div>
 
       <div class="row">
-        <div class="metal-brace">
+        <div class="metal-brace" data-aos="fade-left">
           <object type="image/svg+xml" data="icons/metal-brace.svg"></object>
           <h3>تقويم الاسنان</h3>
           <h4>
@@ -129,7 +127,7 @@
           </h4>
         </div>
 
-        <div class="child's-filling">
+        <div class="child's-filling" data-aos="fade-left">
           <object type="image/svg+xml" data="icons/child.svg"></object>
           <h3>حشوات الاطفال</h3>
           <h4>
@@ -144,7 +142,7 @@
       </div>
 
       <div class="row">
-        <div class="smile-design">
+        <div class="smile-design" data-aos="fade-left">
           <object type="image/svg+xml" data="icons/smile-icon.svg"></object>
           <h3>تصميم الابتسامة</h3>
           <h4>
@@ -157,7 +155,7 @@
           </h4>
         </div>
 
-        <div class="impacet-wisdoom-tooth">
+        <div class="impacet-wisdoom-tooth" data-aos="fade-left">
           <object type="image/svg+xml" data="icons/wisdom-tooth.svg"></object>
           <h3>ازالة ضرس العقل المدفون</h3>
           <h4>
@@ -173,7 +171,7 @@
     </div>
 
     <footer class="footer-section">
-      <div class="footer-working-times">
+      <div class="footer-working-times" >
         <h5>مواعيد العمل</h5>
         <p>من السبت الي الخميس من ١١ ظهرا الي ٦ مساءا</p>
       </div>
@@ -201,5 +199,16 @@
         <object data="images/logo.png"></object>
       </div>
     </footer>
+
+        <!-- js files -->
+        <script src="js-files/jQueryv3.5.1.js"></script>
+        <script src="js-files/bootstrap.min.js"></script>
+        <script src="js-files/script.js"></script>
+        <script src="js-files/aos.js"></script>
+        <script>
+          AOS.init({
+            duration: 1000,
+          });
+        </script>
   </body>
 </html>
